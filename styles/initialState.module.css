@@ -1,0 +1,30 @@
+.container{
+    background-color: hsl(202, 55%, 16%);
+    color: white;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    flex-direction: column;
+    text-align: center;
+    /* height: 472.4px; */
+    padding: 20px;
+    gap: 10px;
+    border-radius: 20px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 50px;
+}
+.container h2 {
+    margin: 0;
+    padding: 0;
+}
+.container p{
+    color :hsl(203, 41%, 72%) ;
+}
+@media (max-width : 376px) {
+    .container{
+        width: 100%;
+        border-radius: 0;
+    }
+}

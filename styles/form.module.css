@@ -1,0 +1,77 @@
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.heading p {
+  margin-bottom: 0;
+}
+.input_button {
+  height: 20px;
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  display: flex;
+  gap: 10px;
+  width: 96%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.form_flex {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.container {
+  width: 60%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 20px;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  gap: 20px;
+}
+#clear {
+  text-decoration: underline;
+  font-size: 16px;
+  color: grey;
+  cursor: pointer;
+}
+.calculate_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 50%;
+  font-size: 16px;
+  border-radius: 50px;
+  font-weight: 700;
+  background-color: hsl(61, 70%, 52%);
+  cursor: pointer;
+}
+#type {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 376px) {
+  .container{
+    width: 100%;
+  }
+  .heading {
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .calculate_btn{
+    width: 100%;
+  }
+  /* .input_button{
+    width: 80%;
+  } */
+}

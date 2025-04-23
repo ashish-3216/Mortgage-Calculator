@@ -1,0 +1,45 @@
+.container{
+    font-weight: 500;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.input-div{
+    display: flex;
+    border: 1px solid hsl(202, 55%, 16%);
+    border-radius: 5px;
+    width: 100%;
+}
+.input-div input{
+    padding: 10px;
+}
+.dollar-sign{
+    color: black;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+#amount{
+    width: 100%;
+    font-size: 16px;
+    border-radius: 5px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    outline: none;
+    border: none;
+}
+#amount:focus {
+    outline: none;
+    border: none;
+}
+@media (max-width : 376px) {
+    .input-div{
+        width: 100%;
+    }
+}

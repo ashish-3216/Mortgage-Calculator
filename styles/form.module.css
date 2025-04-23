@@ -59,7 +59,7 @@
   margin-bottom: 10px;
 }
 
-@media (max-width: 376px) {
+@media (max-width: 1086px) {
   .container{
     width: 100%;
   }
@@ -71,7 +71,4 @@
   .calculate_btn{
     width: 100%;
   }
-  /* .input_button{
-    width: 80%;
-  } */
 }

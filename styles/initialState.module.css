@@ -22,7 +22,7 @@
 .container p{
     color :hsl(203, 41%, 72%) ;
 }
-@media (max-width : 376px) {
+@media (max-width : 1081px) {
     .container{
         width: 100%;
         border-radius: 0;
